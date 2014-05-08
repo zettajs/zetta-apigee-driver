@@ -16,6 +16,6 @@ ApigeeScout.prototype.init = function() {
     appName:'sandbox'
   });
 
-  self.emit('discover', ApigeeDriver, pusher);
+  this.emit('discover', ApigeeDriver, pusher);
 };
 
