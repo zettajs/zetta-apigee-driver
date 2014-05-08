@@ -29,7 +29,7 @@ ApigeeDriver.prototype.push = function(alert, cb) {
     alert: alert
   };
 
-  this.pusher.sendPushNotification(options, function(err, data) {
+  this.pusher.sendNotification(options, function(err, data) {
     self.call('standby');
   });
 };
