@@ -1,4 +1,6 @@
 var ApigeeDriver = module.exports = function(pusher) {
+  this.type = 'apigee';
+  this.name = 'apigee-pusher';
   this.state = 'standby';
   this.pusher = pusher;
 };
