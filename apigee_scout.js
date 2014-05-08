@@ -1,7 +1,7 @@
 var ApigeeDriver = require('./apigee_driver');
 var util = require('util');
 var EventEmitter = require('events').EventEmitter;
-var ApigeePush = require('apigee-push');
+var ApigeePusher = require('apigee-push');
 
 
 var ApigeeScout = module.exports = function() {
