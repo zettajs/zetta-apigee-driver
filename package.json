@@ -1,0 +1,25 @@
+{
+  "name": "zetta-apigee-driver",
+  "version": "0.0.0",
+  "description": "Driver for apigee push notifications",
+  "main": "apigee_scout.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdobson/zetta-apigee-driver.git"
+  },
+  "keywords": [
+    "zetta"
+  ],
+  "author": "Matthew Dobson <@mdobs>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdobson/zetta-apigee-driver/issues"
+  },
+  "homepage": "https://github.com/mdobson/zetta-apigee-driver",
+  "dependencies": {
+    "apigee-push": "0.0.0"
+  }
+}
