@@ -12,7 +12,7 @@ util.inherits(ApigeeScout, EventEmitter);
 
 ApigeeScout.prototype.init = function() {
   var pusher = new ApigeePusher({
-    orgName:'internetofthings',
+    orgName:'mdobson',
     appName:'sandbox'
   });
 

@@ -25,7 +25,7 @@ ApigeeDriver.prototype.push = function(alert, cb) {
   var self = this;
   var options = {
     path: 'devices;ql=/notifications',
-    notifier: 'ZettaApp',
+    notifier: 'ZettaProd',
     alert: alert
   };
 
