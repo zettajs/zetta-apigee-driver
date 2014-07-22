@@ -1,8 +1,8 @@
 {
   "name": "zetta-apigee-driver",
-  "version": "0.0.5",
-  "description": "Driver for apigee push notifications",
-  "main": "apigee_scout.js",
+  "version": "0.0.6",
+  "description": "Zetta driver for apigee push notifications",
+  "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mdobson/zetta-apigee-driver",
   "dependencies": {
-    "apigee-push": "0.0.0"
+    "apigee-push": "0.0.0",
+    "zetta": ">0.0.13"
   }
 }
